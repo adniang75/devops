@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.alassaneniang</groupId>
     <artifactId>devops</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>devops</name>
     <description>devops</description>
@@ -24,7 +24,7 @@
         <connection>scm:git:git@github.com:adniang75/devops.git</connection>
         <developerConnection>scm:git:git@github.com:adniang75/devops.git</developerConnection>
         <url>git@github.com:adniang75/devops.git</url>
-        <tag>v1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <repository>
