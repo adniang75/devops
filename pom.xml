@@ -42,7 +42,7 @@
     <properties>
         <java.version>21</java.version>
         <webjars.version>0.52</webjars.version>
-        <bootstrap.version>3.3.7</bootstrap.version>
+        <bootstrap.version>5.0.0</bootstrap.version>
     </properties>
     <dependencies>
         <dependency>
