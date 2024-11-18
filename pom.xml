@@ -22,11 +22,23 @@
         <developer/>
     </developers>
     <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
+        <connection>scm:git:git@github.com:adniang75/devops.git</connection>
+        <developerConnection>scm:git:git@github.com:adniang75/devops.git</developerConnection>
+        <url>git@github.com:adniang75/devops.git</url>
+        <tag>HEAD</tag>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>a0udswhw8jq6y-artifactory-primary-0-releases</name>
+            <url>https://alassaneniang.jfrog.io/artifactory/ynovaction-libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>a0udswhw8jq6y-artifactory-primary-0-snapshots</name>
+            <url>https://alassaneniang.jfrog.io/artifactory/ynovaction-libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
     <properties>
         <java.version>21</java.version>
         <webjars.version>0.52</webjars.version>
@@ -118,6 +130,15 @@
                             cucumber.junit-platform.naming-strategy=long
                         </configurationParameters>
                     </properties>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.1.1</version>
+                <configuration>
+                    <tagNameFormat>v@{project.version}</tagNameFormat>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
