@@ -29,6 +29,8 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <webjars.version>0.52</webjars.version>
+        <bootstrap.version>3.3.7</bootstrap.version>
     </properties>
     <dependencies>
         <dependency>
@@ -60,6 +62,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>webjars-locator</artifactId>
+            <version>${webjars.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>${bootstrap.version}</version>
         </dependency>
     </dependencies>
 
