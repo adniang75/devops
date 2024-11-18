@@ -31,12 +31,12 @@
         <repository>
             <id>central</id>
             <name>a0udswhw8jq6y-artifactory-primary-0-releases</name>
-            <url>https://alassaneniang.jfrog.io/artifactory/ynovaction-libs-release-local</url>
+            <url>https://alassaneniang.jfrog.io/artifactory/ynovaction-libs-release</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>a0udswhw8jq6y-artifactory-primary-0-snapshots</name>
-            <url>https://alassaneniang.jfrog.io/artifactory/ynovaction-libs-snapshot-local</url>
+            <url>https://alassaneniang.jfrog.io/artifactory/ynovaction-libs-snapshot</url>
         </snapshotRepository>
     </distributionManagement>
     <properties>
